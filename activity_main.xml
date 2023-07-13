@@ -1,0 +1,35 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+tools:context=".MainActivity">
+
+<EditText
+    android:id="@+id/editTextTask"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter a new items" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:shadowColor="#BEC5B7"
+        android:text="Add Task"
+        app:iconTint="#FFFFFF"
+        app:rippleColor="@color/white"
+        app:strokeColor="#BA3D67" />
+
+<ListView
+    android:id="@+id/listViewTasks"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginTop="16dp" />
+
+</LinearLayout>
